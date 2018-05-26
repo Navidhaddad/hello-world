@@ -7,6 +7,7 @@ import scipy
 from sklearn.neighbors import KNeighborsClassifier
 
 print("hello")
+print("test1")
 
 data = data = pd.read_csv('iris.csv', sep=';',header=None)
 data = data.iloc[:,0:5]
