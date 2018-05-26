@@ -6,6 +6,8 @@ import numpy as np
 import scipy
 from sklearn.neighbors import KNeighborsClassifier
 
+print("hello")
+
 data = data = pd.read_csv('iris.csv', sep=';',header=None)
 data = data.iloc[:,0:5]
 data = data.dropna()
